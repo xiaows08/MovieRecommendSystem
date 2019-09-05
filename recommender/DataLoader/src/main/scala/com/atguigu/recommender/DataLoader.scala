@@ -76,9 +76,9 @@ case class ESConfig(httpHosts:String, transportHosts:String, index:String, clust
 object DataLoader {
 
   // 定义常量
-  val MOVIE_DATA_PATH = "D:\\Projects\\BigData\\MovieRecommendSystem\\recommender\\DataLoader\\src\\main\\resources\\movies.csv"
-  val RATING_DATA_PATH = "D:\\Projects\\BigData\\MovieRecommendSystem\\recommender\\DataLoader\\src\\main\\resources\\ratings.csv"
-  val TAG_DATA_PATH = "D:\\Projects\\BigData\\MovieRecommendSystem\\recommender\\DataLoader\\src\\main\\resources\\tags.csv"
+  val MOVIE_DATA_PATH = "recommender/DataLoader/src/main/resources/movies.csv"
+  val RATING_DATA_PATH = "recommender/DataLoader/src/main/resources/ratings.csv"
+  val TAG_DATA_PATH = "recommender/DataLoader/src/main/resources/tags.csv"
 
   val MONGODB_MOVIE_COLLECTION = "Movie"
   val MONGODB_RATING_COLLECTION = "Rating"
